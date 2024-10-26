@@ -1,6 +1,46 @@
 # Yeezy MLB Strike Predictor
 
-A modern web application that predicts baseball strike probabilities using machine learning. Built with React, Vite, and Tailwind CSS.
+## A modern web application that predicts baseball strike probabilities using machine learning. Built with React, Vite, and Tailwind CSS.
+
+## Features
+
+⚾ Real-time strike probability predictions
+📊 Interactive data visualization
+📱 Responsive MLB-themed design
+📈 Historical prediction tracking
+⚡ Fast performance with Vite
+
+## Tech Stack
+
+Framework: React 18
+Build Tool: Vite
+Styling: Tailwind CSS
+UI Components: shadcn/ui
+Charts: Recharts
+Icons: Lucide React
+Deployment: Netlify
+
+Project Structure
+yeezy/
+├── src/
+│   ├── components/
+│   │   └── ui/
+│   │       ├── alert.jsx
+│   │       ├── button.jsx
+│   │       ├── card.jsx
+│   │       └── input.jsx
+│   ├── lib/
+│   │   └── utils.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+└── .gitignore
+
 
 ## Architecture
 
@@ -27,3 +67,12 @@ graph TD
         K --> L[Update History]
         L --> M[Render Updates]
     end
+
+
+## Credits 
+Credits
+
+MLB data structure inspired by Baseball Savant
+Design system inspired by MLB.com
+Icons by Lucide React
+
